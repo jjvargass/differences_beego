@@ -103,3 +103,27 @@ It's un repo compare the create a model and controller based on the database sch
        └── tests
 
 4. The difference I find:
+
+### Difference in Models
+
+- La función GetById es distinto el query
+
+  ![Table user bd](/img/m1.png)
+
+- La funcion GetAll en el // query k=v es distinto
+
+  ![Table user bd](/img/m2.png)
+
+- los metodos get  y delete reciven int64 en vez de int
+
+  ![Table user bd](/img/m3.png)
+
+- Se crean sin referencia al orm
+- No crea la funcion TableName
+
+
+### Difference in Controllers
+
+- in Post Falta if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {
+
+  ![Table user bd](/img/c1.png)
