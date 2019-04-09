@@ -8,6 +8,7 @@ It's un repo compare the create a model and controller based on the database sch
 2. Create API beego  based on the database schema by providing database conn:
         $ bee api differences_beego -driver=postgres -conn=postgres://MyUsuarioBD:MyPassDB@127.0.0.1/differences?sslmode=disable
   get
+
         ______
         | ___ \
         | |_/ /  ___   ___
