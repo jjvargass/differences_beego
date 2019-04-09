@@ -132,6 +132,6 @@ It's un repo compare the create a model and controller based on the database sch
 
   ![Table user bd](/img/c2.png)
 
--Parameter diferences *strconv*
+- Parameter diferences *strconv*
 
   ![Table user bd](/img/c3.png)
