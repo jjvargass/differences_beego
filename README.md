@@ -106,15 +106,15 @@ It's un repo compare the create a model and controller based on the database sch
 
 ### Difference in Models
 
-- La función GetById es distinto el query
+- In the GetById function the query is different
 
   ![Table user bd](/img/m1.png)
 
-- La funcion GetAll en el // query k=v es distinto
+- The GetAll function **// query k=v** es is different
 
   ![Table user bd](/img/m2.png)
 
-- los metodos get  y delete reciven int64 en vez de int
+- The Delete and Get function get int64 instead of int
 
   ![Table user bd](/img/m3.png)
 
@@ -124,6 +124,14 @@ It's un repo compare the create a model and controller based on the database sch
 
 ### Difference in Controllers
 
-- in Post Falta if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {
+- The Post function does not have *if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {*
 
   ![Table user bd](/img/c1.png)
+
+- The Put function does not have  *if err := json.Unmarshal(c.Ctx.Input.RequestBody, &v); err == nil {*
+
+  ![Table user bd](/img/c2.png)
+
+-Parameter diferences *strconv*
+
+  ![Table user bd](/img/c3.png)
