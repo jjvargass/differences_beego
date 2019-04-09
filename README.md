@@ -38,14 +38,14 @@ It's un repo compare the create a model and controller based on the database sch
 
       $ tree
 
-          .
-          ├── conf
-          │   └── app.conf
-          ├── controllers
-          │   └── usuario.go
-          ├── main.go
-          ├── models
-          │   └── usuario.go
-          ├── routers
-          │   └── router.go
-          └── tests
+        .
+        ├── conf
+        │   └── app.conf
+        ├── controllers
+        │   └── usuario.go
+        ├── main.go
+        ├── models
+        │   └── usuario.go
+        ├── routers
+        │   └── router.go
+        └── tests
