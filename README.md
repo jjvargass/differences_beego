@@ -9,6 +9,7 @@ It's un repo compare the create a model and controller based on the database sch
         $ bee api differences_beego -driver=postgres -conn=postgres://MyUsuarioBD:MyPassDB@127.0.0.1/differences?sslmode=disable
 
   get
+
           ______
           | ___ \
           | |_/ /  ___   ___
@@ -35,6 +36,7 @@ It's un repo compare the create a model and controller based on the database sch
           2019/04/09 15:07:01 SUCCESS  ▶ 0009 New API successfully created!
 
       $ tree
+
           .
           ├── conf
           │   └── app.conf
